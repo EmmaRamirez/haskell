@@ -88,3 +88,22 @@ sum
 production
 4 `elem` [3,4,5,6] -- returns true
 ```
+
+## Ranges
+```
+[1..20]
+```
+
+`cycle` repeats into an infinite list, so you have to cut it off at some point.
+
+```
+take 10 (cycle "LOL")
+```
+
+`repeat` is similar
+
+```
+take 10 (repeat 5)
+```
+
+but does it with only one element.
