@@ -37,3 +37,36 @@ See Getting-started/functions.hs for further info.
 ## Lists
 
 See Getting-started/lists.hs for further info.
+
+Lists are *homogenous*, meaning they store elements of the same type.
+
+```
+[1,2,3] ++ [9,2,3]
+"hello" ++ " " ++ "world"
+```
+
+: (cons operator)
+```
+'A':"SMALL DOG"
+4:[3,2,1]
+```
+
+!! (gets element out of a list)
+Starts at zero, like usual.
+```
+"Steve" !! 3
+[2,3,4,5,666,75,3,34,5] !! 1
+```
+
+Lists can also contain lists.
+```
+ghci> let b = [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]  
+ghci> b  
+[[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]  
+ghci> b ++ [[1,1,1,1]]  
+[[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3],[1,1,1,1]]  
+ghci> [6,6,6]:b  
+[[6,6,6],[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]  
+ghci> b !! 2  
+[1,2,2,3,4]
+```
