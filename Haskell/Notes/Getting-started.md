@@ -70,3 +70,21 @@ ghci> [6,6,6]:b
 ghci> b !! 2  
 [1,2,2,3,4]
 ```
+
+```
+head [1,2,3,4,5]
+tail [3,4,4,5,5]
+last [2,3,4,5,6]
+init [3,4,5,5,3]
+
+length [2,3,4]
+null []
+reverse [3,4,5]
+take 2 [1,2,4,5]
+drop [34,55,33,06]
+maximum
+minimum
+sum
+production
+4 `elem` [3,4,5,6] -- returns true
+```
