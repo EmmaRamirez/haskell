@@ -31,3 +31,7 @@ Function application generally applies to the nearest reference, or whatever is 
 
 
 ## First functions
+```
+doubleMe x = x + x
+doubleUs x y = x*x + y*y
+```
