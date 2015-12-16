@@ -33,3 +33,7 @@ Function application generally applies to the nearest reference, or whatever is 
 ## First functions
 
 See Getting-started/functions.hs for further info.
+
+## Lists
+
+See Getting-started/lists.hs for further info.
