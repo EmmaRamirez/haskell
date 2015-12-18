@@ -125,3 +125,22 @@ ghci> [x*2 | x <- [1..10], x*2 >= 12]
 ghci> [ x | x <- [50..100], x `mod` 7 == 3]  
 [52,59,66,73,80,87,94]  
 ```
+
+
+## Tuples
+
+Like lists, but differ in:
+- used when you know how many values you want to combine and its type depends on how many components it has and the types of its components
+- denoted with ()
+- components separated by commas
+
+```
+[(1, 2), (8, 11), (4, 5)]
+```
+
+```
+[(1, 2), (3, 4, 5), (3, 5)]
+-- RETURNS AN ERROR
+```
+
+Tupes are rigid. Singleton lists exist, but not singleton tuples.
