@@ -30,6 +30,26 @@ addThree x y z = x + y + z
 
 [a] -> any type
 *Type variable* a type of any type.
-Functions that have type variables are called *polymorphic functions.*
+Functions that have type variables are called **polymorphic functions.**
 
 # Typeclasses
+Everything before `=>` is a **class constant.**
+
+Eq is used for equality testing.
+Ord is for types that have an ordering.
+
+Show members can be presented as stirngs.
+Read is the opposite. Read returns a type which is a member of read.
+
+Use **explicit type annotations.**
+
+```
+read "5" :: Int
+read "5" :: Float
+(read "5" :: Float) * 4
+read "[1, 2, 3, 4]" :: [Int]
+```
+
+Enum members are sequentially ordered types. They can be enumerated. The main advantage of the Enum typeclass is that we can use its type in list ranges.
+
+Bounded members have an upper and lower Bounded
