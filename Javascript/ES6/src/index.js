@@ -54,3 +54,22 @@ a === undefined;
 // fail-soft destructring with defaults
 var [a = 1] = [];
 a === 1;
+
+// Default + Rest + Spread
+function f(x, y = 12) {
+  return x + y;
+}
+f (3) == 15;
+
+function f(x, ...y) {
+  // y is an array
+  return x * y.length;
+}
+f(3, "hello", true) == 6
+
+funciton f(x, y, z) {
+  return x + y + z;
+}
+
+// pass each elem of array as argument
+f (...[1, 2, 3]) == 6
