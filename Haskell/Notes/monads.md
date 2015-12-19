@@ -86,3 +86,52 @@ id a = a
 Functions under composition are a monoid.
 
 ## Monads
+```
+x: a
+f : a -> Ma
+g : a -> Ma
+h : a -> Ma
+```
+Returns a transform of a.
+
+Functions that take a's and return M of a's. *M* is a type constructor. Every function will take a and return a with some extra data to it. *M* is same for every compositional function.
+
+```
+a => .... --anonymous function expression
+λ --lambda
+\a -> ... --haskell notation
+```
+The function of a that does etc.
+
+No end of complexity. Linq is monadic. Designed by Meyer.
+
+If I can get to compositionality. Functions under composition is monoid.
+
+```
+\a -> (f a) >>= \a -> (g a)
+```
+What's the type of f of a? Ma (a transformation of a). (g a)'s type is also Ma.
+
+Why don't we just write it as g? Lambda does nothing other than call g on a.
+
+We have to take (f a) and shove that in.
+
+The composition of these two functions is a function that takes an a and returns an Ma.
+
+Lambda expression with a bind expression.
+
+The result of the entire thing is Ma.
+
+```
+\a -> (f a) >>= \a -> (g a)
+```
+
+Analog of composition so it has to observe associativity.
+
+```
+data Maybe a = Nothing | Just a
+```
+
+Maybe represents a type that may fail to return a result. The Maybe type suggests a strategy for combining computations which return Maybe alues. If a combined computation consist of one computation B that depends on the result of another computation A, then the combined computation should yield Nothing whenever A or B yield nothing and the combined computation should yield the result of B applied to the result of A when both succeed.
+
+Monads may exist for I/O, have state, may return multiple results, etc.
