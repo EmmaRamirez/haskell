@@ -143,3 +143,32 @@ Monads play a central role in I/O in Haskell. It is not essentail to understand 
 1. Modularity -- they allow computations to be composed from simpler computations and separate the combination strategy from the actual computations being performed.
 2. Flexibility -- they allow functional programs to be much more adaptable than equivalent programs written without monads. This is because the monad distills the computational strategy into a single place instead of requiring it be distributed through the entire program.
 3. Isolation -- they can be used to create imperative-style computational structures which remain safely isolated from the main body of the functioanl program. This is used for incorporating side-effects such as I/O and state (which violates referential transparency) into a pure functional language like Haskell.
+
+## Meet the Monads
+
+### Type Constructors
+A *type constructor* is a parameterized type definition used with polymorphic types. By supplying a type constructor with one or more concrete types, you can construct a new concrete type in Haskell. In the definition of Maybe:
+
+```
+data Maybe a = Nothing | Just a
+```
+
+Maybe is a type constructor, Nothing and Just a are data constructors. You can construct a data value by applying the Just data constructor to a value.
+
+```
+country = Just "China"
+```
+
+In the same way, you can contruct a type by applying the Maybe type constructor to a type.
+
+```
+lookupAge :: DB -> String -> Maybe Int
+```
+
+polymorphic types are like containers that are capable of holding values of many different types. So Maybe Int can be thought of as a Maybe container holding an Int value (or Nothing) and Maybe String would be a Maybe container holding a String value (or Nothing).
+
+In Haskell, we make the type container polymorphic so we could writing "m a" to represent a container of some type holding a value of some type.
+
+"kind errors" indicate that you are not using the type constructors correctly.
+
+### Maybe a monad
