@@ -73,3 +73,24 @@ funciton f(x, y, z) {
 
 // pass each elem of array as argument
 f (...[1, 2, 3]) == 6
+
+// Iterators for..of
+
+let fibonacci = {
+  [Symbol.iterator]() {
+    let pre = 0, cur = 1;
+    return {
+      next() {
+        [pre, cur] = [cur, pre + cur];
+        return { done: false, value: cur }
+      }
+    }
+  }
+}
+
+// break it or else it becomes infinite!
+for (var n of fibonacci) {
+  if (n > 1000)
+    break;
+  console.log(n);
+}
