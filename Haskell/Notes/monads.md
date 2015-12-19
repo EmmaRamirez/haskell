@@ -72,3 +72,17 @@ Two meta rules: associativity and existence of a unit or zero (generically or ab
 
 ## functions
 If you have two f's that don't form a singular type, they are part of a monoidal category, but not a monoid.
+
+(f ~ g) ~ h = f ~ (g ~ h)
+
+f (g (h a))
+f (g (h a)) = No way function composition cannot be associative.
+
+```
+id : a -> a
+id a = a
+(f ~ id) = f (id a) = f a
+```
+Functions under composition are a monoid.
+
+## Monads
