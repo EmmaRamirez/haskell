@@ -135,3 +135,11 @@ data Maybe a = Nothing | Just a
 Maybe represents a type that may fail to return a result. The Maybe type suggests a strategy for combining computations which return Maybe alues. If a combined computation consist of one computation B that depends on the result of another computation A, then the combined computation should yield Nothing whenever A or B yield nothing and the combined computation should yield the result of B applied to the result of A when both succeed.
 
 Monads may exist for I/O, have state, may return multiple results, etc.
+
+## Why should I understand Monads?
+
+Monads play a central role in I/O in Haskell. It is not essentail to understand Monads to do I/O in Haskell, but understanding I/O monads will improve your code.
+
+1. Modularity -- they allow computations to be composed from simpler computations and separate the combination strategy from the actual computations being performed.
+2. Flexibility -- they allow functional programs to be much more adaptable than equivalent programs written without monads. This is because the monad distills the computational strategy into a single place instead of requiring it be distributed through the entire program.
+3. Isolation -- they can be used to create imperative-style computational structures which remain safely isolated from the main body of the functioanl program. This is used for incorporating side-effects such as I/O and state (which violates referential transparency) into a pure functional language like Haskell.
