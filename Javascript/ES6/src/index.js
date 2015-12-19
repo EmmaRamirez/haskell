@@ -33,3 +33,24 @@ class Hero {
 // String interpolation
 var name = "Erick", time = "today";
 `Hello ${name}, how are you ${time}?`
+
+// Destructuring
+var [a, , b] = [1, 2, 3];
+
+var { op: a, lhs: { op: b}, rhs: c}
+    = getASTNode()
+
+var {op, lhs, rhs} = getASTNode()
+
+function g({name: x}) {
+  console.log(x);
+}
+g({name: 5})
+
+// fail-soft destructring
+var [a] = [];
+a === undefined;
+
+// fail-soft destructring with defaults
+var [a = 1] = [];
+a === 1;
