@@ -190,3 +190,45 @@ Roughly speaking, the monad type constructor defines a type of computation, the 
 The `>>=` function takes the value from a monad container and passes it to a function to produce a monad container containing a new value, possibly a different type.
 
 The `>>=` is known as bind because it binds the value in a monad container to the first argument of a function. By adding logic to the binding function, a monad can implement a specific strategy for combining computations in the monad.
+
+### An example
+```Haskell
+type Sheep = ...
+
+father :: Sheep -> Maybe Sheep
+father = ...
+
+mother :: Sheep -> Maybe Sheep
+mother = ...
+
+maternalGrandfather :: Sheep -> Maybe Sheep
+maternalGrandfather s = case (mother s) of
+                          Nothing -> Nothing
+                          Just m  -> father m
+
+-- gets even worse for mother's part
+mothersPaternalGrandfather :: Sheep -> Maybe Sheep
+mothersPaternalGrandfather s = case (mother s) of
+                                  Nothing -> Nothing
+                                  Just m -> case (father m) of
+                                              Nothing -> Nothing
+                                              Just gf -> father gf
+
+```
+
+Problems: ugly, unclear, difficult to maintain. It's too much work!
+
+It'd be nice if we could implement the Nothing at one point.
+
+```Haskell
+comb :: Maybe a -> (a -> Maybe b) -> Maybe b
+comb Nothing _ = Nothing
+comb (Just x) f = f x
+-- no we use 'comb' to build complicated sequences
+mothersPaternalGrandfather :: Sheep -> Maybe Sheep
+mothersPaternalGrandfather s = (Just s) `comb` mother `comb` father `comb` fahter
+```
+
+Uses an infix operator and is entirely polymorphic--it is not specialized for Sheep in any way. In fact, *the combinator captures a general strategy for combining computations that may fail to return a value*.
+
+We've created a monad without even realizing it! The `Maybe` constructor along with the `Just` function and our combinator (acts like `>>=`) together form a simple monad for building computations that may not return a value. All that remains to make this monad truly useful is to make it conform to the monad framework build into the Haskell language.
