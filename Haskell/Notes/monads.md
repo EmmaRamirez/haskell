@@ -172,3 +172,21 @@ In Haskell, we make the type container polymorphic so we could writing "m a" to 
 "kind errors" indicate that you are not using the type constructors correctly.
 
 ### Maybe a monad
+In Haskell, a monad is represented as a type constructor (call it m), a function that builds values of that type (a -> m a), and a function that combines values of that type with computations that produce values of that type to produce a new computation for values of that type (m a -> (a -> m b) -> m b). Not that the container is the same, but the type of the contents of the container can change. It is customary to call themonad type constructor "m" when discussing monads in general. The function that builds the values of that type is traditionally called "return" and the third function is known as "bind" but is written as `>>=`. The signatures of the function are:
+
+```Haskell
+-- type of monad m
+data m a = ...
+-- return is a type constructor that creates a monad isntance
+return :: a -> m a
+-- bind is a function that combines a monad instance m a with a computation
+-- that produce another monad instance m b from a's to produce a new
+-- monad instance m b
+(>>=) :: m a -> (a -> m b) -> m b
+```
+
+Roughly speaking, the monad type constructor defines a type of computation, the return function creates primitive values of that computation type and >>= combines computations of that type together to make more complex computations of that type.
+
+The `>>=` function takes the value from a monad container and passes it to a function to produce a monad container containing a new value, possibly a different type.
+
+The `>>=` is known as bind because it binds the value in a monad container to the first argument of a function. By adding logic to the binding function, a monad can implement a specific strategy for combining computations in the monad.
