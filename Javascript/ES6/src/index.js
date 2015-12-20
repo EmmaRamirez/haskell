@@ -129,3 +129,27 @@ wm.size === undefined;
 
 var ws = new WeakSet();
 ws.add({ data : 42 });
+
+
+// Proxies
+// Normal object
+var target = {};
+var handler = {
+  get: function (reciever, name) {
+    return `Hello, ${name}`;
+  }
+};
+
+var p = new Proxy(target, handler);
+p.world === 'Hello, world!';
+
+// Function object
+var target = function () { return 'I am the target'; }
+var handler = {
+  apply: function (reciever, ...args) {
+    return 'I am the proxy';
+  }
+};
+
+var p = new Proxy(target, handler);
+p() === 'I am the proxy';
