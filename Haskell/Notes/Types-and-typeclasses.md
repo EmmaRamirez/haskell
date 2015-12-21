@@ -53,6 +53,3 @@ read "[1, 2, 3, 4]" :: [Int]
 Enum members are sequentially ordered types. They can be enumerated. The main advantage of the Enum typeclass is that we can use its type in list ranges.
 
 Bounded members have an upper and lower Bounded.
-
-
-## Where!?

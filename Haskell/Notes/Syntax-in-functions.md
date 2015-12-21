@@ -21,3 +21,7 @@ ghci> capital "Dracula"
 "The first letter of Dracula is D"
 
 Can't use ++ in pattern matches. This is because of the nature of lists, which don't allow ++ concatenation.
+
+
+## Where!?
+We repeat ourselves 3 times in the bmiTell function.
