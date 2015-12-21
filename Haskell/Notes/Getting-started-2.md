@@ -6,3 +6,10 @@ GCH has three components.
 - runghc is a program for running scripts, without need for compiling
 
 To load something into the module: `:module + Data.Ratio`
+
+Haskell does not equate True & False with non-zero & zero.
+
+```
+'a':"bc"
+"foo" ++ "bar"
+```
