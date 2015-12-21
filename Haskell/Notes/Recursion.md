@@ -26,3 +26,16 @@ replicate' n x
   | n <= 0    = []
   | otehrwise = x:replicate' (n - 1) x
 ```
+
+Note: Num is not a subclass of Ord. THat means that what constitutes for a number doesn't really have to adhere to an ordering. So that's why we have to specify both the Num and Ord calss constraints when doing addition or subtraction and also comparison.
+
+```Haskell
+take' :: (Num i, Ord i) => i -> [a] -> [a]
+take' n _
+    | n <= 0    = []
+take' _ []      = []
+take' n (x:xs)  = x : take' (n - 1) xs
+```
+
+## Quicksort
+See file.
