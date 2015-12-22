@@ -10,3 +10,7 @@ delete Superman.fly
 // then you
 
 today = new Date();
+today.toString();
+christmas = new Date('2014 12 25');
+
+var pattern = new RegExp('\w+ing');
