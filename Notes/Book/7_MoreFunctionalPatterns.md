@@ -62,3 +62,24 @@ bindExp x = let y 5 in
             "the integer was: " ++ show x
             ++ " and y was: " ++ show y
 ```
+
+### Anonymous Functions
+
+Not Anonymous
+```Haskell
+triple :: Integer -> Integer
+triple x = x * 3
+```
+
+Anonymous
+```Haskell
+(\x -> x * 3) :: Integer -> Integer
+```
+
+Not Anonymous
+```Haskell
+let trip = (\x -> x * 3) :: Integer -> Integer
+```
+
+### The unity of lambda syntax
+We often use this syntax when you're passing a function in as an argument to ho functions and that's the only place where that function will be used.
