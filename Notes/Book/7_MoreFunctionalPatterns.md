@@ -83,3 +83,19 @@ let trip = (\x -> x * 3) :: Integer -> Integer
 
 ### The unity of lambda syntax
 We often use this syntax when you're passing a function in as an argument to ho functions and that's the only place where that function will be used.
+
+## Pattern Matching
+
+An integral and ubiquitous feature of Haskell.
+
+```Haskell
+isItTwo :: Integer -> Bool
+isItTwo 2 = True
+isItTwo _ = False
+```
+
+### Pattern Matching against data constructors
+
+Pattern matching serves a couple of purposes. It enables us to vary what our functions do given different inputs.
+
+`newType`: a special case of data constructor that permits only one constructor and only one field.
