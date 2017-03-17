@@ -70,3 +70,11 @@ evensUpTo20 = takeWhile(<-20) [2,4..]
 -- foldl applies the operation on each item of a list
 --- foldl applies these operations from the right
 multOfList = foldl (*) [1,2,3,4,5]
+
+--- List comps ---
+
+pow3List = [3^n | n <- [1..10]]
+
+pow3ListDiv9 = [3^n | n <- [1..10], 3^n mod 9 == 0]
+
+multTable = [[x * y | y <- [1..10]] | x <- [1..10]]
