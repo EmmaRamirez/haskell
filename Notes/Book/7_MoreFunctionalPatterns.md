@@ -99,3 +99,28 @@ isItTwo _ = False
 Pattern matching serves a couple of purposes. It enables us to vary what our functions do given different inputs.
 
 `newType`: a special case of data constructor that permits only one constructor and only one field.
+
+## Case expressions
+
+```Haskell
+data Bool = False | True
+```
+
+1. TYpe constructor, we only use this in type signatures
+2. Data constructor for the inhabitatn of bool named False
+3. Data constructor for the inhabitatn of bool named True
+
+We _muse_ handle both cases or use a function that handles both.
+
+```Haskell
+if x + 1 == 1 then "AWESOME" else "wut"
+```
+
+We can rewrite this as a case like so:
+
+```Haskell
+funcZ x =
+  case x + 1 == 1 of
+    True -> "AWESOME"
+    False -> "wut"
+```
