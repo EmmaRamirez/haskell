@@ -50,3 +50,106 @@ Because no operation interjects, we can determine that the _a_ in the function i
 
 ### Typeclass-constrained type variables
 
+## Currying
+
+All functions in Haskell take on argument and return one result. Instead, functions are curried. Let's break down addition:
+
+```
+(+) :: Num a => a -> a -> a
+        [1]        [2]    [3]
+```
+
+1. Typeclass that a must have an instance of `Num`. Addition is defined in the `Num` typeclass.
+
+2. The boundaries of 2 demarcate what you might call the two parameters to the function (+) take one arg and return one result. **Functions in Haskell are nested like Matryoshka dolls in order to accept "multiple" arguments**.
+
+3. This is the result type for this function. It will be a number of the same type as the two inputs.
+
+### Partial application
+
+`partial application` is a strategy for only applying a portion of a function's arguments
+
+```haskell
+addStuff :: Integer -> Integer -> Integer
+addStuff a b = a + b + 5
+```
+
+`addStuff` takes two integer args and returns an integer result
+
+```haskell
+Prelude> :t addStuff
+addStuff :: Integer -> Integer -> Integer
+Prelude> let addTen = addStuff 5
+Prelude> :t addTen
+addTen :: Integer -> Integer
+Prelude> let fifteen = addTen 5
+Prelude> fifteen
+15
+Prelude> addTen 15
+25
+Prelude> addStuff 5 5
+15
+```
+
+fifteen is equal to addStuff 5 5, because addTen is equal to addStuff 5
+
+### Manual currying and uncurrying
+
+Haskell is curried by default, but you can uncurry functions. Uncurrying means un-nesting the functions and replacing the two functions with a tuple of two values.
+
+If you uncurry (+) the type changes from `Num a => a -> a -> a` to `Num a => (a, a) -> a` which better fits the description "takes two arguments, returns on result"
+
+- Uncurried functions: One function, many arguments
+- Curried functions: Many functions, one argument piece
+
+### Currying & uncurrying existing functions
+
+You can curry and uncurry functions with multiple parameters generically
+
+```haskell
+let curry f a b = f (a, b)
+curry :: ((t1, t2) -> t) -> t1 -> t2 -> t
+fst :: (a, b) -> a
+curry fst 1 2
+```
+
+```haskell
+let uncurry f (a, b) = f a b
+uncurry :: (t1 -> t2 -> t) -> (t1, t2) -> t
+(+) :: Num a => a -> a -> a
+-- (+) 1 2
+-- 3
+uncurry (+) (1, 2)
+```
+
+### Sectioning
+_Sectioning_ refers to partial application of infix operators, which has a special syntax and allows you to choose whether the argument you're partially applying the operator to is the second or first argument.
+
+```
+let x = 5
+let y = (2^)
+let z = (^2)
+y x
+-- 32
+z x
+-- 25
+```
+
+Argument order doesn't matter. Use partially applied functions mostly for maps and folds, etc. With noncommutative oeprators, this is important to be cautious of.
+
+## Polymorphism
+
+_Polymorph_ refers to Greek poly + morph (many forms). _Monomorphic_ = made of one form.
+
+Pm type variables give us the ability to implement expressions that can accept arguments and return results of different types without having to write variations on the same expression for each type.
+
+Type signatures have three kinds of types: concrete, constrained polymorphic, or parametrically polymorphic.
+
+Parametric polymorphism refers to parameters that are fully polymorphic.
+
+`identity` function `id` comes wiith Prelude and is the identity for any value, and will pass the same value.
+
+```haskell
+id :: a -> a
+```
+
