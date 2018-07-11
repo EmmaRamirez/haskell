@@ -1,0 +1,8 @@
+Configuring dlist-0.8.0.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for dlist-0.8.0.4..
+Building library for dlist-0.8.0.4..
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/DList.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/dlist-0.8.0.4-EWVGGTJvTTW8quLYK9yz9r
+Registering library for dlist-0.8.0.4..

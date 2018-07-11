@@ -1,0 +1,104 @@
+Warning: polyparse.cabal:12:2: Tabs used as indentation at 12:2, 13:2, 14:2,
+15:2, 16:2, 17:2
+Configuring polyparse-1.12...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for polyparse-1.12..
+Building library for polyparse-1.12..
+[ 1 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/HuttonMeijer.o )
+[ 2 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/HuttonMeijerWallace.o )
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Base.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Base.hs:3:19: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m3 |[0m[0m     Commitment(..)[;1m[35m      [0m[0m-- class of all two-level-error values
+[;1m[34m  |[0m[0m[;1m[35m                   ^^^^^^[0m[0m
+[0m[0m[0m[ 4 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Result.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Result.hs:3:15: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m3 |[0m[0m     Result(..)[;1m[35m  [0m[0m-- A parsing result type, with Success, Failure, and Commitment.
+[;1m[34m  |[0m[0m[;1m[35m               ^^[0m[0m
+[0m[0m[0m[ 5 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Parser.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Parser.hs:7:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m7 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[ 6 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Plain.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Plain.hs:3:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m3 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[ 7 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly.o )
+[ 8 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Parse.o )
+
+[;1msrc/Text/Parse.hs:4:15: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m4 |[0m[0m     TextParser[;1m[35m  [0m[0m-- synonym for Parser Char, i.e. string input, no state
+[;1m[34m  |[0m[0m[;1m[35m               ^^[0m[0m
+[0m[0m[0m[ 9 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Lex.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Lex.hs:89:18: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m89 |[0m[0m infixl 6 `onFail`[;1m[35m       [0m[0m-- not sure about precedence 6?
+[;1m[34m   |[0m[0m[;1m[35m                  ^^^^^^^[0m[0m
+[0m[0m[0m[10 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Lazy.o )
+
+[;1msrc/Text/ParserCombinators/Poly/Lazy.hs:4:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m4 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[11 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/ByteStringChar.o )
+[12 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Parse/ByteString.o )
+
+[;1msrc/Text/Parse/ByteString.hs:5:15: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 13 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m5 |[0m[0m     TextParser[;1m[35m  [0m[0m-- synonym for Text.ParserCombinators.Poly.ByteString
+[;1m[34m  |[0m[0m[;1m[35m               ^^[0m[0m
+[0m[0m[0m[13 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/ByteString.o )
+[14 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/StateParser.o )
+
+[;1msrc/Text/ParserCombinators/Poly/StateParser.hs:7:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m7 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[15 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/StateLazy.o )
+
+[;1msrc/Text/ParserCombinators/Poly/StateLazy.hs:4:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m4 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[16 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/State.o )
+
+[;1msrc/Text/ParserCombinators/Poly/State.hs:3:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m3 |[0m[0m     Parser(P)[;1m[35m   [0m[0m-- datatype, instance of: Functor, Monad, PolyParse
+[;1m[34m  |[0m[0m[;1m[35m              ^^^[0m[0m
+[0m[0m[0m[17 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/StateText.o )
+[18 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/ParserCombinators/Poly/Text.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/polyparse-1.12-AafkYPRdYin98WnFInxf9
+Registering library for polyparse-1.12..

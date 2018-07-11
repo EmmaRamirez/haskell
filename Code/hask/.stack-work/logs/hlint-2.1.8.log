@@ -1,0 +1,67 @@
+Configuring hlint-2.1.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hlint-2.1.8..
+Building library for hlint-2.1.8..
+[ 1 of 53] Compiling HSE.Type         ( src/HSE/Type.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Type.o )
+[ 2 of 53] Compiling HSE.Util         ( src/HSE/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Util.o )
+[ 3 of 53] Compiling HSE.Scope        ( src/HSE/Scope.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Scope.o )
+[ 4 of 53] Compiling HSE.Match        ( src/HSE/Match.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Match.o )
+[ 5 of 53] Compiling HSE.Reduce       ( src/HSE/Reduce.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Reduce.o )
+[ 6 of 53] Compiling HsColour         ( src/HsColour.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour.o )
+[ 7 of 53] Compiling Parallel         ( src/Parallel.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Parallel.o )
+[ 8 of 53] Compiling Paths_hlint      ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_hlint.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_hlint.o )
+[ 9 of 53] Compiling Test.Util        ( src/Test/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/Util.o )
+[10 of 53] Compiling Test.InputOutput ( src/Test/InputOutput.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/InputOutput.o )
+[11 of 53] Compiling Timing           ( src/Timing.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Timing.o )
+[12 of 53] Compiling Util             ( src/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Util.o )
+[13 of 53] Compiling HSE.All          ( src/HSE/All.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/All.o )
+[14 of 53] Compiling Refact           ( src/Refact.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Refact.o )
+[15 of 53] Compiling Hint.Util        ( src/Hint/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Util.o )
+[16 of 53] Compiling Config.Type      ( src/Config/Type.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Config/Type.o )
+[17 of 53] Compiling Test.Translate   ( src/Test/Translate.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/Translate.o )
+[18 of 53] Compiling Test.Proof       ( src/Test/Proof.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/Proof.o )
+[19 of 53] Compiling Idea             ( src/Idea.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Idea.o )
+[20 of 53] Compiling Report           ( src/Report.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Report.o )
+[21 of 53] Compiling CC               ( src/CC.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/CC.o )
+[22 of 53] Compiling Hint.Type        ( src/Hint/Type.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Type.o )
+[23 of 53] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Unsafe.o )
+[24 of 53] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Pragma.o )
+[25 of 53] Compiling Hint.Pattern     ( src/Hint/Pattern.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Pattern.o )
+[26 of 53] Compiling Hint.NewType     ( src/Hint/NewType.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/NewType.o )
+[27 of 53] Compiling Hint.Naming      ( src/Hint/Naming.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Naming.o )
+[28 of 53] Compiling Hint.Monad       ( src/Hint/Monad.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Monad.o )
+[29 of 53] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/ListRec.o )
+[30 of 53] Compiling Hint.List        ( src/Hint/List.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/List.o )
+[31 of 53] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Lambda.o )
+[32 of 53] Compiling Hint.Import      ( src/Hint/Import.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Import.o )
+[33 of 53] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Extensions.o )
+[34 of 53] Compiling Hint.Export      ( src/Hint/Export.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Export.o )
+[35 of 53] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Duplicate.o )
+[36 of 53] Compiling Hint.Comment     ( src/Hint/Comment.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Comment.o )
+[37 of 53] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Bracket.o )
+[38 of 53] Compiling Hint.Restrict    ( src/Hint/Restrict.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Restrict.o )
+[39 of 53] Compiling HSE.Unify        ( src/HSE/Unify.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HSE/Unify.o )
+[40 of 53] Compiling Hint.Match       ( src/Hint/Match.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/Match.o )
+[41 of 53] Compiling Hint.All         ( src/Hint/All.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Hint/All.o )
+[42 of 53] Compiling Config.Yaml      ( src/Config/Yaml.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Config/Yaml.o )
+[43 of 53] Compiling Config.Haskell   ( src/Config/Haskell.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Config/Haskell.o )
+[44 of 53] Compiling Config.Read      ( src/Config/Read.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Config/Read.o )
+[45 of 53] Compiling Config.Compute   ( src/Config/Compute.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Config/Compute.o )
+[46 of 53] Compiling Apply            ( src/Apply.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Apply.o )
+[47 of 53] Compiling Test.Annotations ( src/Test/Annotations.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/Annotations.o )
+[48 of 53] Compiling Grep             ( src/Grep.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Grep.o )
+[49 of 53] Compiling CmdLine          ( src/CmdLine.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/CmdLine.o )
+[50 of 53] Compiling Test.All         ( src/Test/All.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Test/All.o )
+[51 of 53] Compiling HLint            ( src/HLint.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HLint.o )
+[52 of 53] Compiling Language.Haskell.HLint3 ( src/Language/Haskell/HLint3.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HLint3.o )
+[53 of 53] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HLint.o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'hlint' for hlint-2.1.8..
+Building executable 'hlint' for hlint-2.1.8..
+[1 of 1] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/hlint/hlint-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/hlint/hlint ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/hlint-2.1.8-3buMSJTdQl5L2kqM86nUHY
+Installing executable hlint in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/bin
+Registering library for hlint-2.1.8..

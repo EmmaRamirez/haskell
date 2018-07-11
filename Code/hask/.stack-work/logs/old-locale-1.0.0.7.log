@@ -1,0 +1,8 @@
+Configuring old-locale-1.0.0.7...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for old-locale-1.0.0.7..
+Building library for old-locale-1.0.0.7..
+[1 of 1] Compiling System.Locale    ( System/Locale.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Locale.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/old-locale-1.0.0.7-26K7wLFR2jK44UeOklvTCh
+Registering library for old-locale-1.0.0.7..

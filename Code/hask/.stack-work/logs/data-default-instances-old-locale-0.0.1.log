@@ -1,0 +1,8 @@
+Configuring data-default-instances-old-locale-0.0.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for data-default-instances-old-locale-0.0.1..
+Building library for data-default-instances-old-locale-0.0.1..
+[1 of 1] Compiling Data.Default.Instances.OldLocale ( Data/Default/Instances/OldLocale.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Default/Instances/OldLocale.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/data-default-instances-old-locale-0.0.1-JZDXO6iGViiIeqGG9yoh9C
+Registering library for data-default-instances-old-locale-0.0.1..

@@ -1,0 +1,175 @@
+Configuring hscolour-1.24.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hscolour-1.24.4..
+Building library for hscolour-1.24.4..
+[ 1 of 16] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/Classify.o )
+
+[;1mLanguage/Haskell/HsColour/Classify.hs:50:39: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m50 |[0m[0m glue (q:".":n:rest) | isUpper (head q)[;1m[35m  [0m[0m-- qualified names
+[;1m[34m   |[0m[0m[;1m[35m                                       ^^[0m[0m
+[0m[0m[0m[ 2 of 16] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/ColourHighlight.o )
+[ 3 of 16] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/Colourise.o )
+[ 4 of 16] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/General.o )
+[ 5 of 16] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/Anchors.o )
+
+[;1mLanguage/Haskell/HsColour/Anchors.hs:73:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in four further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m73 |[0m[0m [;1m[35m        [0m[0m              | v `inST` st     -> Nothing
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0m[ 6 of 16] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/HTML.o )
+[ 7 of 16] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/CSS.o )
+[ 8 of 16] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/ACSS.o )
+[ 9 of 16] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/InlineCSS.o )
+
+[;1mLanguage/Haskell/HsColour/InlineCSS.hs:12:24: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m hscolour :: ColourPrefs[;1m[35m [0m[0m-- ^ Preferences for styling.
+[;1m[34m   |[0m[0m[;1m[35m                        ^[0m[0m
+[0m[0m[0m[10 of 16] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/LaTeX.o )
+[11 of 16] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/MIRC.o )
+[12 of 16] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/Output.o )
+[13 of 16] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/Options.o )
+
+[;1mLanguage/Haskell/HsColour/Options.hs:11:9: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m     Help[;1m[35m        [0m[0m        -- ^ print usage message
+[;1m[34m   |[0m[0m[;1m[35m         ^^^^^^^^[0m[0m
+[0m[0m[0m[14 of 16] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/ANSI.o )
+
+[;1mLanguage/Haskell/HsColour/ANSI.hs:62:10: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-methods[0m[0m[;1m][0m[0m[;1m
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m62 |[0m[0m instance [;1m[35mEnum Highlight[0m[0m where
+[;1m[34m   |[0m[0m[;1m[35m          ^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[15 of 16] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour/TTY.o )
+[16 of 16] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/HsColour.o )
+
+[;1mLanguage/Haskell/HsColour.hs:37:19: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in two further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m37 |[0m[0m          -> String[;1m[35m      [0m[0m-- ^ Title for output.
+[;1m[34m   |[0m[0m[;1m[35m                   ^^^^^^[0m[0m
+[0m[0m[0mignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'HsColour' for hscolour-1.24.4..
+Building executable 'HsColour' for hscolour-1.24.4..
+
+[;1m<no location info>: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-home-modules[0m[0m[;1m][0m[0m[;1m
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Language.Haskell.HsColour
+                                                                                                 Language.Haskell.HsColour.ACSS
+                                                                                                 Language.Haskell.HsColour.ANSI
+                                                                                                 Language.Haskell.HsColour.Anchors
+                                                                                                 Language.Haskell.HsColour.CSS
+                                                                                                 Language.Haskell.HsColour.Classify
+                                                                                                 Language.Haskell.HsColour.ColourHighlight
+                                                                                                 Language.Haskell.HsColour.Colourise
+                                                                                                 Language.Haskell.HsColour.General
+                                                                                                 Language.Haskell.HsColour.HTML
+                                                                                                 Language.Haskell.HsColour.InlineCSS
+                                                                                                 Language.Haskell.HsColour.LaTeX
+                                                                                                 Language.Haskell.HsColour.MIRC
+                                                                                                 Language.Haskell.HsColour.Options
+                                                                                                 Language.Haskell.HsColour.Output
+                                                                                                 Language.Haskell.HsColour.TTY[0m[0m
+[0m[0m[0m[ 1 of 17] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Classify.o )
+
+[;1mLanguage/Haskell/HsColour/Classify.hs:50:39: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m50 |[0m[0m glue (q:".":n:rest) | isUpper (head q)[;1m[35m  [0m[0m-- qualified names
+[;1m[34m   |[0m[0m[;1m[35m                                       ^^[0m[0m
+[0m[0m[0m[ 2 of 17] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ColourHighlight.o )
+[ 3 of 17] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Colourise.o )
+[ 4 of 17] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/General.o )
+[ 5 of 17] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Anchors.o )
+
+[;1mLanguage/Haskell/HsColour/Anchors.hs:73:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in four further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m73 |[0m[0m [;1m[35m        [0m[0m              | v `inST` st     -> Nothing
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0m[ 6 of 17] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/HTML.o )
+[ 7 of 17] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/CSS.o )
+[ 8 of 17] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ACSS.o )
+[ 9 of 17] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/InlineCSS.o )
+
+[;1mLanguage/Haskell/HsColour/InlineCSS.hs:12:24: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m hscolour :: ColourPrefs[;1m[35m [0m[0m-- ^ Preferences for styling.
+[;1m[34m   |[0m[0m[;1m[35m                        ^[0m[0m
+[0m[0m[0m[10 of 17] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/LaTeX.o )
+[11 of 17] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/MIRC.o )
+[12 of 17] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Output.o )
+[13 of 17] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Options.o )
+
+[;1mLanguage/Haskell/HsColour/Options.hs:11:9: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m     Help[;1m[35m        [0m[0m        -- ^ print usage message
+[;1m[34m   |[0m[0m[;1m[35m         ^^^^^^^^[0m[0m
+[0m[0m[0m[14 of 17] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ANSI.o )
+
+[;1mLanguage/Haskell/HsColour/ANSI.hs:62:10: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-methods[0m[0m[;1m][0m[0m[;1m
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m62 |[0m[0m instance [;1m[35mEnum Highlight[0m[0m where
+[;1m[34m   |[0m[0m[;1m[35m          ^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[15 of 17] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/TTY.o )
+[16 of 17] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Language/Haskell/HsColour.o )
+
+[;1mLanguage/Haskell/HsColour.hs:37:19: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in two further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m37 |[0m[0m          -> String[;1m[35m      [0m[0m-- ^ Title for output.
+[;1m[34m   |[0m[0m[;1m[35m                   ^^^^^^[0m[0m
+[0m[0m[0m[17 of 17] Compiling Main             ( HsColour.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour-tmp/Main.o )
+
+[;1mHsColour.hs:72:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in two further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m72 |[0m[0m [;1m[35m        [0m[0m                      [(f, guessLiterate lhs f) | Input f <- good]
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1m<no location info>: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-home-modules[0m[0m[;1m][0m[0m[;1m
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Language.Haskell.HsColour
+                                                                                                 Language.Haskell.HsColour.ACSS
+                                                                                                 Language.Haskell.HsColour.ANSI
+                                                                                                 Language.Haskell.HsColour.Anchors
+                                                                                                 Language.Haskell.HsColour.CSS
+                                                                                                 Language.Haskell.HsColour.Classify
+                                                                                                 Language.Haskell.HsColour.ColourHighlight
+                                                                                                 Language.Haskell.HsColour.Colourise
+                                                                                                 Language.Haskell.HsColour.General
+                                                                                                 Language.Haskell.HsColour.HTML
+                                                                                                 Language.Haskell.HsColour.InlineCSS
+                                                                                                 Language.Haskell.HsColour.LaTeX
+                                                                                                 Language.Haskell.HsColour.MIRC
+                                                                                                 Language.Haskell.HsColour.Options
+                                                                                                 Language.Haskell.HsColour.Output
+                                                                                                 Language.Haskell.HsColour.TTY[0m[0m
+[0m[0m[0mLinking .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/HsColour/HsColour ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/hscolour-1.24.4-94pJJEQPeRh4lzTDXHECov
+Installing executable HsColour in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/bin
+Registering library for hscolour-1.24.4..

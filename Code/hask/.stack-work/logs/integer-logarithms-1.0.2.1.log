@@ -1,0 +1,11 @@
+Configuring integer-logarithms-1.0.2.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for integer-logarithms-1.0.2.1..
+Building library for integer-logarithms-1.0.2.1..
+[1 of 4] Compiling GHC.Integer.Logarithms.Compat ( src/GHC/Integer/Logarithms/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/GHC/Integer/Logarithms/Compat.o )
+[2 of 4] Compiling Math.NumberTheory.Logarithms ( src/Math/NumberTheory/Logarithms.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Math/NumberTheory/Logarithms.o )
+[3 of 4] Compiling Math.NumberTheory.Powers.Integer ( src/Math/NumberTheory/Powers/Integer.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Math/NumberTheory/Powers/Integer.o )
+[4 of 4] Compiling Math.NumberTheory.Powers.Natural ( src/Math/NumberTheory/Powers/Natural.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Math/NumberTheory/Powers/Natural.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/integer-logarithms-1.0.2.1-KTtq4CBpjpvEUZ9qRz5Dnw
+Registering library for integer-logarithms-1.0.2.1..

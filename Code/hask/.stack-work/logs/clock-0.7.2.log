@@ -1,0 +1,25 @@
+Configuring clock-0.7.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for clock-0.7.2..
+Clock.hsc:44:9: warning: 'hsc_alignment' macro redefined [-Wmacro-redefined]
+#define hsc_alignment(t ) hsc_printf ( "%lu", (unsigned long)offsetof(struct {char x__; t (y__); }, y__));
+        ^
+/Users/emma/.stack/programs/x86_64-osx/ghc-8.4.3/lib/ghc-8.4.3/template-hsc.h:91:9: note: previous definition is here
+#define hsc_alignment(x...)                                           \
+        ^
+1 warning generated.
+Building library for clock-0.7.2..
+[1 of 1] Compiling System.Clock     ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Clock.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Clock.o )
+
+[;1mSystem/Clock.hsc:136:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wincomplete-patterns[0m[0m[;1m][0m[0m[;1m
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘clockToConst’:
+        Patterns not matched: MonotonicRaw[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m136 |[0m[0m [;1m[35mclockToConst Monotonic = #const SYSTEM_CLOCK[0m[0m
+[;1m[34m    |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0mclang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/clock-0.7.2-Cf9UTsaN2AjEpBnoMpmgkU
+Registering library for clock-0.7.2..

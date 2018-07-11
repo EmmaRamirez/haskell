@@ -1,0 +1,9 @@
+Configuring unliftio-core-0.1.1.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for unliftio-core-0.1.1.0..
+Building library for unliftio-core-0.1.1.0..
+[1 of 2] Compiling Control.Monad.IO.Unlift ( src/Control/Monad/IO/Unlift.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Monad/IO/Unlift.o )
+[2 of 2] Compiling Paths_unliftio_core ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_unliftio_core.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_unliftio_core.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/unliftio-core-0.1.1.0-LMRC2BJekXQHTjQ89kypYp
+Registering library for unliftio-core-0.1.1.0..

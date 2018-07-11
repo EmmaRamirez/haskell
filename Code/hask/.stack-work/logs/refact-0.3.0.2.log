@@ -1,0 +1,8 @@
+Configuring refact-0.3.0.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for refact-0.3.0.2..
+Building library for refact-0.3.0.2..
+[1 of 1] Compiling Refact.Types     ( src/Refact/Types.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Refact/Types.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/refact-0.3.0.2-n0hNpMWwf9DfLLZaE9G3A
+Registering library for refact-0.3.0.2..

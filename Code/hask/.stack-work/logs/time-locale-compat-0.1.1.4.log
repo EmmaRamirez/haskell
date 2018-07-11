@@ -1,0 +1,8 @@
+Configuring time-locale-compat-0.1.1.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for time-locale-compat-0.1.1.4..
+Building library for time-locale-compat-0.1.1.4..
+[1 of 1] Compiling Data.Time.Locale.Compat ( src/Data/Time/Locale/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Time/Locale/Compat.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/time-locale-compat-0.1.1.4-7wM80GF7eQsF3fUTGOdEvb
+Registering library for time-locale-compat-0.1.1.4..

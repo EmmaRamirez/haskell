@@ -1,0 +1,8 @@
+Configuring semigroups-0.18.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for semigroups-0.18.5..
+Building library for semigroups-0.18.5..
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Semigroup/Generic.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/semigroups-0.18.5-E4FVMc5VZAG98u64romz5
+Registering library for semigroups-0.18.5..

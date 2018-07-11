@@ -1,0 +1,12 @@
+Configuring scientific-0.3.6.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for scientific-0.3.6.2..
+Building library for scientific-0.3.6.2..
+[1 of 5] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/GHC/Integer/Compat.o )
+[2 of 5] Compiling Utils            ( src/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Utils.o )
+[3 of 5] Compiling Data.Scientific  ( src/Data/Scientific.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Scientific.o )
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Text/Lazy/Builder/Scientific.o )
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/ByteString/Builder/Scientific.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/scientific-0.3.6.2-DjpZ7roOxEw4xDnigGRV5E
+Registering library for scientific-0.3.6.2..

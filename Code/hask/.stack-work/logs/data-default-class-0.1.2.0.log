@@ -1,0 +1,8 @@
+Configuring data-default-class-0.1.2.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for data-default-class-0.1.2.0..
+Building library for data-default-class-0.1.2.0..
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Default/Class.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/data-default-class-0.1.2.0-2kYzERBLX3wJoPfj7mwVvW
+Registering library for data-default-class-0.1.2.0..

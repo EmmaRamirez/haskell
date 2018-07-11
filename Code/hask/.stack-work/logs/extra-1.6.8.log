@@ -1,0 +1,26 @@
+Configuring extra-1.6.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for extra-1.6.8..
+Building library for extra-1.6.8..
+[ 1 of 19] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/IORef/Extra.o )
+[ 2 of 19] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Tuple/Extra.o )
+[ 3 of 19] Compiling Data.Typeable.Extra ( src/Data/Typeable/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Typeable/Extra.o )
+[ 4 of 19] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Numeric/Extra.o )
+[ 5 of 19] Compiling Partial          ( src/Partial.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Partial.o )
+[ 6 of 19] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/List/Extra.o )
+[ 7 of 19] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Version/Extra.o )
+[ 8 of 19] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Either/Extra.o )
+[ 9 of 19] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Exception/Extra.o )
+[10 of 19] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Monad/Extra.o )
+[11 of 19] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Concurrent/Extra.o )
+[12 of 19] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Directory/Extra.o )
+[13 of 19] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Environment/Extra.o )
+[14 of 19] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/IO/Extra.o )
+[15 of 19] Compiling System.Info.Extra ( src/System/Info/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Info/Extra.o )
+[16 of 19] Compiling System.Process.Extra ( src/System/Process/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Process/Extra.o )
+[17 of 19] Compiling System.Time.Extra ( src/System/Time/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/System/Time/Extra.o )
+[18 of 19] Compiling Text.Read.Extra  ( src/Text/Read/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Read/Extra.o )
+[19 of 19] Compiling Extra            ( src/Extra.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Extra.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/extra-1.6.8-2KHLwinC2i1KygJvweFKV
+Registering library for extra-1.6.8..

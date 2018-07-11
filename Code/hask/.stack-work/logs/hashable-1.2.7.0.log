@@ -1,0 +1,13 @@
+Configuring hashable-1.2.7.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hashable-1.2.7.0..
+Building library for hashable-1.2.7.0..
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Hashable/Class.o )
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Hashable/Generic.o )
+[3 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Hashable.o )
+[4 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Hashable/Lifted.o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/hashable-1.2.7.0-8MkquYouWwiLIw3HmVGSkN
+Registering library for hashable-1.2.7.0..

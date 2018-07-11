@@ -1,0 +1,12 @@
+Configuring haskell-src-exts-util-0.2.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for haskell-src-exts-util-0.2.3..
+Building library for haskell-src-exts-util-0.2.3..
+[1 of 5] Compiling Language.Haskell.Exts.FreeVars ( src/Language/Haskell/Exts/FreeVars.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/Exts/FreeVars.o )
+[2 of 5] Compiling Language.Haskell.Exts.Util.Internal ( src/Language/Haskell/Exts/Util/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/Exts/Util/Internal.o )
+[3 of 5] Compiling Language.Haskell.Exts.Bracket ( src/Language/Haskell/Exts/Bracket.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/Exts/Bracket.o )
+[4 of 5] Compiling Language.Haskell.Exts.Util ( src/Language/Haskell/Exts/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Language/Haskell/Exts/Util.o )
+[5 of 5] Compiling Paths_haskell_src_exts_util ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_haskell_src_exts_util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_haskell_src_exts_util.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/emma/.stack/snapshots/x86_64-osx/nightly-2018-07-08/8.4.3/lib/x86_64-osx-ghc-8.4.3/haskell-src-exts-util-0.2.3-DqDzG0AweTnAxR3Tfjx6Tp
+Registering library for haskell-src-exts-util-0.2.3..
